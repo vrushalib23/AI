@@ -4,7 +4,7 @@ b  = [[0]*N for i in range(N)]
 
 def isSafe(i,j):
     for p in range(N):
-        if b[i][p] == 1 or b[p][j]==1 :
+        if b[i][p] == 1 or b[p][j] == 1 :
             return False
     for n in range(N):
         for m in range(N):
